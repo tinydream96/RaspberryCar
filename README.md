@@ -4,6 +4,8 @@ An intelligent car based on Raspberry-Pi-3.
 
 （中文介绍请往后翻）
 
+python3 /home/pi/RaspberryCar/PythonCode/main_obstacle_avoidance.py
+
 ## Platform
 Raspberry-Pi-3
 
