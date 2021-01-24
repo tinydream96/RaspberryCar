@@ -12,7 +12,7 @@ class CarCamera(object):
     def __init__(self):
         # initialize the camera and grab a reference to the raw camera capture
 
-        HOST = '192.168.12.90'  # ip of PC
+        HOST = '192.168.125.135'  # ip of PC
         PORT = 8000  # 随便设置一个，对应起来就行
         self.server = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
         self.server.connect((HOST,PORT))
