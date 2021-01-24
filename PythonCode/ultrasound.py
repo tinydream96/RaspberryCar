@@ -10,8 +10,8 @@ GPIO.setmode(GPIO.BCM)
 class CarUltrasound(object):
     def __init__(self):
 
-        self.GPIO_TRIGGER = 20  # GPIO setting (BCM coding)
-        self.GPIO_ECHO = 21
+        self.GPIO_TRIGGER = 22  # GPIO setting (BCM coding)
+        self.GPIO_ECHO = 27
 
         GPIO.setup(self.GPIO_TRIGGER, GPIO.OUT)  # GPIO input/output definiation
         GPIO.setup(self.GPIO_ECHO, GPIO.IN)
