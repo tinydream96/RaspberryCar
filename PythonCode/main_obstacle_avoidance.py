@@ -42,22 +42,22 @@ if __name__ == '__main__':
                 start_time = None
                 if left_measure == 0 and right_measure == 1:
                     print("Going right")
-                    car.right(80)
+                    car.right(40)
                 elif left_measure == 1 and right_measure == 0:
                     print("Going left")
-                    car.left(80)
+                    car.left(40)
                 elif left_measure == 0 and right_measure == 0:
                     print("Going back")
                     car.back(50)
                 else:
                     if dist_mov_ave < 20:
-                        car.left(80)
+                        car.left(40)
                         print("Going left")
                         start_time = time.time()
                     elif dist_mov_ave < 100:
                         car.forward(dist_mov_ave/2 + 40)
                     else:
-                        car.forward(90)
+                        car.forward(50)
             else:
                 pass
 
